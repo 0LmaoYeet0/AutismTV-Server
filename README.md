@@ -7,10 +7,6 @@ https://desktop.github.com/download/
 #### Step 1.2
 ##### Login to GitHub Desktop
 <img src="/readme-img/GitHub-Desktop.png" width="500" height="auto"></img>
-#### Step 1.3
-##### Inform Matt that you have signed up and request Access to Repository
-#### Step 1.4
-##### Accept Access Permissions through email
 -----------------------------------
 ### Step 2 - Clone Repository
 #### Step 2.1
