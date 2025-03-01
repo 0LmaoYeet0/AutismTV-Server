@@ -12,8 +12,8 @@ https://desktop.github.com/download/
 ##### Inform Matt that you have signed up and ask for Collaborator Invite
 #### Step 1.4
 ##### Accept Access Permissions through email
-
-
+\n
+\n
 -----------------------------------
 ### Step 2 - Clone Repository
 -----------------------------------
