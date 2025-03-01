@@ -38,15 +38,15 @@ https://desktop.github.com/download/
 ##### Open Chosen Local Path
 <img src="/readme-img/GitHub-Repo.png" width="500" height="auto"></img>
 #### Step 3.2
-##### Open run.bat
+##### Open start.bat
 <img src="/readme-img/Server-Run.png" width="500" height="auto"></img>
 #### Step 3.3
 ##### Wait for this window to show up
 <img src="/readme-img/Server-Console.png" width="500" height="auto"></img>
 #### Step 3.4
-##### Connect to server using 127.0.0.1:26700
+##### Connect to server using 127.0.0.1:16200 if you're hosting. Otherwise, use your IP Address in Hamachi or Radmin and add ':16200' as the Port Number
 -----------------------------------
-### Step 4 - Update Server Files
+### Step 4 - Update local Server Files
 #### Step 4.1
 ##### Open GitHub Desktop
 #### Step 4.2
