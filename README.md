@@ -12,8 +12,8 @@ https://desktop.github.com/download/
 ##### Inform Matt that you have signed up and ask for Collaborator Invite
 #### Step 1.4
 ##### Accept Access Permissions through email
-\n
-\n
+  
+
 -----------------------------------
 ### Step 2 - Clone Repository
 -----------------------------------
@@ -36,7 +36,7 @@ https://desktop.github.com/download/
 <img src="/readme-img/GitHub-Folder.png" width="500" height="auto"></img>
 #### Step 2.7
 ##### Click Clone
-
+  
 
 -----------------------------------
 ### Step 3 - Start Server
@@ -53,7 +53,7 @@ https://desktop.github.com/download/
 #### Step 3.4
 ##### Connect to server using 127.0.0.1:16200 if you're hosting. 
 ##### Otherwise, use your IP Address in Hamachi or Radmin and add ':16200' as the Port Number
-
+  
 
 -----------------------------------
 ### Step 4 - Update local Server Files
@@ -65,7 +65,7 @@ https://desktop.github.com/download/
 #### Step 4.3
 ##### Click Pull Origin
 <img src="/readme-img/GitHub-Pull.png" width="500" height="auto"></img>
-
+  
 
 -----------------------------------
 ### Step 5 - Update Server Files after Hosting
