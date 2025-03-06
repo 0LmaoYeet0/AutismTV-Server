@@ -1,4 +1,5 @@
 ## Server Hosting Tuts :D
+-----------------------------------
 ### Step 1 - Create GitHub Account
 -----------------------------------
 #### Step 1.1
@@ -8,11 +9,14 @@ https://desktop.github.com/download/
 ##### Login to GitHub Desktop
 <img src="/readme-img/GitHub-Desktop.png" width="500" height="auto"></img>
 #### Step 1.3
-##### Inform Dell that you have signed up and request Access to Repository
+##### Inform Matt that you have signed up and ask for Collaborator Invite
 #### Step 1.4
 ##### Accept Access Permissions through email
+  
+
 -----------------------------------
 ### Step 2 - Clone Repository
+-----------------------------------
 #### Step 2.1
 ##### Click File in the Upper Left Corner
 <img src="/readme-img/GitHub-Clone.png" width="500" height="auto"></img>
@@ -32,21 +36,28 @@ https://desktop.github.com/download/
 <img src="/readme-img/GitHub-Folder.png" width="500" height="auto"></img>
 #### Step 2.7
 ##### Click Clone
+  
+
 -----------------------------------
 ### Step 3 - Start Server
+-----------------------------------
 #### Step 3.1
 ##### Open Chosen Local Path
 <img src="/readme-img/GitHub-Repo.png" width="500" height="auto"></img>
 #### Step 3.2
-##### Open run.bat
+##### Open start.bat
 <img src="/readme-img/Server-Run.png" width="500" height="auto"></img>
 #### Step 3.3
 ##### Wait for this window to show up
 <img src="/readme-img/Server-Console.png" width="500" height="auto"></img>
 #### Step 3.4
-##### Connect to server using 127.0.0.1:26700
+##### Connect to server using 127.0.0.1:16200 if you're hosting. 
+##### Otherwise, use your IP Address in Hamachi or Radmin and add ':16200' as the Port Number
+  
+
 -----------------------------------
-### Step 4 - Update Server Files
+### Step 4 - Update local Server Files
+-----------------------------------
 #### Step 4.1
 ##### Open GitHub Desktop
 #### Step 4.2
@@ -54,8 +65,11 @@ https://desktop.github.com/download/
 #### Step 4.3
 ##### Click Pull Origin
 <img src="/readme-img/GitHub-Pull.png" width="500" height="auto"></img>
+  
+
 -----------------------------------
 ### Step 5 - Update Server Files after Hosting
+-----------------------------------
 #### Step 5.1
 ##### Open GitHub Desktop
 #### Step 5.2
