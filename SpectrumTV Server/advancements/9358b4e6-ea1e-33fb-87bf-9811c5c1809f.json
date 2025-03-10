@@ -2299,6 +2299,7 @@
       "bread": "2025-02-25 21:58:33 +0800",
       "golden_apple": "2025-02-28 00:16:52 +0800",
       "cooked_chicken": "2025-02-28 00:58:49 +0800",
+      "enchanted_golden_apple": "2025-03-10 13:38:19 +0800",
       "cooked_mutton": "2025-02-25 21:51:36 +0800",
       "cooked_cod": "2025-02-28 20:01:49 +0800",
       "cooked_beef": "2025-02-25 21:31:58 +0800",
@@ -2397,12 +2398,16 @@
       "minecraft:pillager": "2025-02-28 02:33:22 +0800",
       "minecraft:blaze": "2025-02-28 14:56:19 +0800",
       "minecraft:skeleton": "2025-02-25 21:43:28 +0800",
+      "minecraft:zombified_piglin": "2025-03-10 12:53:16 +0800",
       "minecraft:witch": "2025-02-28 02:34:01 +0800",
+      "minecraft:wither_skeleton": "2025-03-10 11:38:24 +0800",
+      "minecraft:ghast": "2025-03-10 13:19:58 +0800",
       "minecraft:cave_spider": "2025-02-27 21:06:45 +0800",
       "minecraft:piglin": "2025-02-27 23:57:09 +0800",
       "minecraft:breeze": "2025-02-27 21:15:14 +0800",
       "minecraft:vindicator": "2025-02-28 02:33:35 +0800",
       "minecraft:enderman": "2025-02-27 21:05:06 +0800",
+      "minecraft:magma_cube": "2025-03-10 13:33:46 +0800",
       "minecraft:spider": "2025-02-25 22:01:48 +0800",
       "minecraft:vex": "2025-02-28 02:34:43 +0800",
       "minecraft:zombie": "2025-02-25 21:48:38 +0800",
@@ -3954,11 +3959,15 @@
   },
   "betternether:all_the_biomes": {
     "criteria": {
+      "betternether:bone_reef": "2025-03-10 13:31:47 +0800",
       "betternether:nether_mushroom_forest_edge": "2025-02-27 23:38:59 +0800",
       "betternether:poor_nether_grasslands": "2025-02-27 23:59:47 +0800",
       "betternether:flooded_deltas": "2025-02-27 23:42:55 +0800",
       "betternether:old_fungiwoods": "2025-02-27 21:48:52 +0800",
+      "betternether:nether_grasslands": "2025-03-10 13:35:28 +0800",
       "betternether:nether_mushroom_forest": "2025-02-27 23:39:01 +0800",
+      "betternether:old_swampland": "2025-03-10 13:36:37 +0800",
+      "betternether:sulfuric_bone_reef": "2025-03-10 13:35:00 +0800",
       "betternether:nether_swampland": "2025-03-04 23:48:13 +0800"
     },
     "done": false
@@ -7883,9 +7892,9 @@
     },
     "done": true
   },
-  "uselessreptile:dragon/tame_wyvern": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "entity_tamed": "2025-03-09 19:16:08 +0800"
+      "has_item_frame": "2025-03-09 18:52:15 +0800"
     },
     "done": true
   },
@@ -7895,9 +7904,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
+  "uselessreptile:dragon/tame_wyvern": {
     "criteria": {
-      "has_item_frame": "2025-03-09 18:52:15 +0800"
+      "entity_tamed": "2025-03-09 19:16:08 +0800"
     },
     "done": true
   },
@@ -7906,6 +7915,930 @@
       "abondoned_prairie_house": "2025-03-09 19:22:17 +0800"
     },
     "done": false
+  },
+  "betternether:cincinnasite_diamond": {
+    "criteria": {
+      "cincinnasite_diamond": "2025-03-10 12:18:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_framed_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/bone_reed_door": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-10 11:03:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-03-10 11:30:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/basalt_brick_wall_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2025-03-10 13:35:06 +0800"
+    },
+    "done": false
+  },
+  "eternal_starlight:recipes/building_blocks/scarlet_wood": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:13 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/wall_mushroom_brown": {
+    "criteria": {
+      "has_brown_mushroom": "2025-03-10 10:30:13 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/raw_aethersent_block": {
+    "criteria": {
+      "has_raw_aethersent": "2025-03-10 13:45:25 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/shapeless/aetherstrike_rocket": {
+    "criteria": {
+      "has_item": "2025-03-10 13:45:35 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/dragon_tail_armor_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/bone_block_bone_button": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_hoe_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 12:18:51 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/shapeless/shadow_snail_shell_powder": {
+    "criteria": {
+      "has_item": "2025-03-10 13:57:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-03-10 12:53:17 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/dragon_chestplate_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:cincinnasite_tools": {
+    "criteria": {
+      "cincinnasite_sword": "2025-03-10 12:18:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/basalt_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/bone_block_bone_plate": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-10 11:03:57 +0800"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_hammock_purple": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_framed_pane_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/roof_tile_nether_brick_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/shapeless/nebulaite": {
+    "criteria": {
+      "has_item": "2025-03-10 13:45:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/basalt_furnace": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/blackstone_furnace": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/basalt_basalt_slab": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_bricks_roof_tile_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/basalt_brick_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:obtain_aetherstrike_rocket": {
+    "criteria": {
+      "has_item": "2025-03-10 14:00:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/redstone/scarlet_pressure_plate": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/scarlet_stairs": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_slab_from_brick_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/bone_block_bone_stairs": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-03-10 12:35:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:cincinnasite_gear": {
+    "criteria": {
+      "cincinnasite_boots": "2025-03-10 11:50:33 +0800"
+    },
+    "done": false
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_stairs_from_brick_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2025-03-10 11:46:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "more_rpg_content:berserker_spells": {
+    "criteria": {
+      "cast": "2025-03-10 12:39:26 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/bone_wall": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/scarlet_slab": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-10 11:03:57 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/redstone/scarlet_door": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/bone_block_bone_slab": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_axe_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 12:18:51 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/bone_wall_stonecutting": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/bone_slab_stonecutting": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_pickaxe_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 12:18:51 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_small_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/bn_glowstone_dust": {
+    "criteria": {
+      "has_glowstone_pile": "2025-03-10 13:32:14 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/moleclaw_helmet_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/decorations/scarlet_sign": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/basalt_brick_slabs_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-03-10 12:17:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-03-10 13:33:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-03-10 12:53:17 +0800"
+    },
+    "done": true
+  },
+  "betternether:flaming_tools": {
+    "criteria": {
+      "flaming_ruby_sword": "2025-03-10 11:47:04 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-03-10 10:30:13 +0800"
+    },
+    "done": true
+  },
+  "comforts:recipes/building_blocks/dye_sleeping_bag_purple": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_forge": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_wall_from_brick_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/dragon_helmet_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/bone_stairs_stonecutting": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:kill_creteor": {
+    "criteria": {
+      "kill": "2025-03-10 13:45:32 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/basalt_slab_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/dye_purple_yeti_fur_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:flaming_armor": {
+    "criteria": {
+      "flaming_ruby_boots": "2025-03-10 13:17:51 +0800",
+      "flaming_ruby_chestplate": "2025-03-10 11:46:48 +0800",
+      "flaming_ruby_leggings": "2025-03-10 13:17:57 +0800",
+      "flaming_ruby_helmet": "2025-03-10 13:17:55 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_purple_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/redstone/bone_cin_door": {
+    "criteria": {
+      "has_bone_block": "2025-03-10 13:33:22 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/food/stalagnate_bowl_mushroom": {
+    "criteria": {
+      "has_brown_mushroom": "2025-03-10 10:30:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/bundle": {
+    "criteria": {
+      "requirement": "2025-03-10 12:35:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_anvil": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-03-10 12:54:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/scarlet_fence": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/quartz_glass_pane_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/redstone/scarlet_button": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "betternether:ruby_gear": {
+    "criteria": {
+      "nether_ruby_boots": "2025-03-10 13:16:00 +0800",
+      "nether_ruby_helmet": "2025-03-10 12:19:29 +0800",
+      "nether_ruby_chestplate": "2025-03-10 12:14:09 +0800",
+      "nether_ruby_leggings": "2025-03-10 11:47:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/shapeless/yellow_dye_from_aureate_flower": {
+    "criteria": {
+      "has_item": "2025-03-10 13:52:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/scarlet_planks": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:nether/gauntlet_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:gauntlet": "2025-03-10 13:39:20 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/shapeless/pink_dye_from_whisperbloom": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:22 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/shapeless/orange_dye_from_withered_starlight_flower": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-03-10 12:17:32 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/netherite_vortex_horn_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/netherrack_stalactite_netherrack": {
+    "criteria": {
+      "has_netherrack_stalactite": "2025-03-10 10:30:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "terralith:technical/detect_bundle_recipe": {
+    "criteria": {
+      "bundle": "2025-03-10 12:35:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/lapis_pile_to_lapis": {
+    "criteria": {
+      "has_lapis_pile": "2025-03-10 13:33:00 +0800"
+    },
+    "done": true
+  },
+  "endrem:main/cold_eye": {
+    "criteria": {
+      "cold_eye": "2025-03-10 12:33:24 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/nether_brick_tile_large_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/misc/leather": {
+    "criteria": {
+      "has_the_recipe": "2025-03-10 12:35:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_purple": {
+    "criteria": {
+      "has_purple_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-03-10 13:19:58 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/cincinnasite_sword_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 12:18:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-03-10 13:38:43 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_shovel_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 12:18:51 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/redstone/scarlet_fence_gate": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2025-03-10 13:33:47 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/building_blocks/dye_purple_yeti_fur": {
+    "criteria": {
+      "has_needed_dye": "2025-03-10 11:33:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-03-10 11:36:25 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/raw_aethersent_from_raw_aethersent_block": {
+    "criteria": {
+      "has_raw_aethersent_block": "2025-03-10 13:56:04 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/redstone/scarlet_trapdoor": {
+    "criteria": {
+      "has_item": "2025-03-10 13:51:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-03-10 10:30:13 +0800"
+    },
+    "done": true
+  },
+  "eternal_starlight:recipes/misc/aethersent_ingot_blasting_from_raw_aethersent": {
+    "criteria": {
+      "has_item": "2025-03-10 13:45:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 11:55:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-03-10 13:37:16 +0800"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
