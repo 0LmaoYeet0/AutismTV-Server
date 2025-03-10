@@ -63,6 +63,7 @@
     "criteria": {
       "minecraft:beach": "2025-02-27 20:33:14 +0800",
       "minecraft:dark_forest": "2025-02-27 22:37:10 +0800",
+      "minecraft:deep_ocean": "2025-03-10 20:47:32 +0800",
       "minecraft:river": "2025-02-27 22:30:52 +0800",
       "minecraft:stony_shore": "2025-02-27 22:33:08 +0800",
       "minecraft:lush_caves": "2025-02-28 01:20:53 +0800",
@@ -77,7 +78,8 @@
       "minecraft:swamp": "2025-02-28 23:42:53 +0800",
       "minecraft:windswept_hills": "2025-02-28 23:39:21 +0800",
       "minecraft:windswept_savanna": "2025-02-28 23:40:49 +0800",
-      "minecraft:plains": "2025-02-27 20:31:28 +0800"
+      "minecraft:plains": "2025-02-27 20:31:28 +0800",
+      "minecraft:deep_lukewarm_ocean": "2025-03-10 20:51:19 +0800"
     },
     "done": false
   },
@@ -2406,6 +2408,7 @@
       "minecraft:ravager": "2025-02-28 22:46:47 +0800",
       "minecraft:husk": "2025-02-27 22:42:36 +0800",
       "minecraft:cave_spider": "2025-02-28 23:44:23 +0800",
+      "minecraft:piglin": "2025-03-10 21:47:10 +0800",
       "minecraft:breeze": "2025-02-28 00:28:14 +0800",
       "minecraft:vindicator": "2025-02-28 22:45:55 +0800",
       "minecraft:magma_cube": "2025-03-04 21:56:48 +0800",
@@ -4200,18 +4203,19 @@
   },
   "betternether:all_the_biomes": {
     "criteria": {
-      "betternether:crimson_glowing_woods": "2025-03-04 21:53:44 +0800",
+      "betternether:wart_forest_edge": "2025-03-10 21:32:39 +0800",
       "betternether:upside_down_forest_cleared": "2025-03-04 22:07:28 +0800",
-      "betternether:nether_mushroom_forest_edge": "2025-02-27 23:39:01 +0800",
-      "betternether:upside_down_forest": "2025-03-04 21:53:53 +0800",
-      "betternether:nether_jungle": "2025-03-04 21:54:00 +0800",
       "betternether:poor_nether_grasslands": "2025-03-04 21:52:51 +0800",
       "betternether:flooded_deltas": "2025-03-04 21:49:22 +0800",
       "betternether:old_fungiwoods": "2025-02-27 23:34:31 +0800",
       "betternether:nether_grasslands": "2025-03-04 21:50:34 +0800",
+      "betternether:nether_swampland": "2025-03-04 21:53:55 +0800",
+      "betternether:crimson_glowing_woods": "2025-03-04 21:53:44 +0800",
+      "betternether:nether_mushroom_forest_edge": "2025-02-27 23:39:01 +0800",
+      "betternether:upside_down_forest": "2025-03-04 21:53:53 +0800",
+      "betternether:nether_jungle": "2025-03-04 21:54:00 +0800",
       "betternether:nether_mushroom_forest": "2025-02-27 23:39:03 +0800",
-      "betternether:nether_swampland_terraces": "2025-03-04 22:06:37 +0800",
-      "betternether:nether_swampland": "2025-03-04 21:53:55 +0800"
+      "betternether:nether_swampland_terraces": "2025-03-04 22:06:37 +0800"
     },
     "done": false
   },
@@ -6158,6 +6162,7 @@
   "betternether:nether_wood": {
     "criteria": {
       "got_willow": "2025-02-28 13:17:17 +0800",
+      "got_crimson": "2025-03-10 20:48:57 +0800",
       "got_wart": "2025-02-28 13:27:34 +0800"
     },
     "done": false
@@ -7996,6 +8001,338 @@
   "betternether:recipes/building_blocks/basalt_brick_from_smooth_stonecutting": {
     "criteria": {
       "has_smooth_basalt": "2025-03-04 23:50:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-03-10 19:51:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-03-10 19:51:56 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/andesite_pedestal": {
+    "criteria": {
+      "has_polished_andesite": "2025-03-10 19:51:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-03-10 19:51:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-03-10 19:51:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-03-10 20:58:59 +0800"
+    },
+    "done": true
+  },
+  "betternether:cincinnasite_diamond": {
+    "criteria": {
+      "cincinnasite_diamond": "2025-03-10 21:27:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-10 20:44:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2025-03-10 21:42:01 +0800",
+      "minecraft:basalt_deltas": "2025-03-10 21:41:31 +0800"
+    },
+    "done": false
+  },
+  "uselessreptile:recipes/tools/dragon_tail_armor_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_hoe_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 21:27:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2025-03-10 21:18:09 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/dragon_chestplate_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_outstation": "2025-03-10 21:32:03 +0800",
+      "nova_structures:piglin_donjon": "2025-03-10 21:40:01 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-03-10 20:48:57 +0800"
+    },
+    "done": true
+  },
+  "more_rpg_content:air_rune": {
+    "criteria": {
+      "runes": "2025-03-10 21:19:13 +0800"
+    },
+    "done": true
+  },
+  "annihilation:nether/kill_annihilation": {
+    "criteria": {
+      "kill_annihilation": "2025-03-10 20:55:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-03-10 20:45:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-10 20:44:20 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/bn_red_mushroom": {
+    "criteria": {
+      "has_wall_mushroom_red": "2025-03-10 21:45:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2025-03-10 21:00:37 +0800"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_netherite_scrap": "2025-03-10 20:45:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-03-10 20:44:20 +0800"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglin_outpost": {
+    "criteria": {
+      "nova_structures:piglin_outstation": "2025-03-10 21:32:03 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_axe_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 21:27:08 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-03-10 20:16:16 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_pickaxe_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 21:27:08 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/moleclaw_helmet_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2025-03-10 21:18:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-03-10 21:27:34 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/dragon_helmet_netherite_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sponge": {
+    "criteria": {
+      "has_sponge": "2025-03-10 20:50:00 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wither": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-03-10 21:39:02 +0800"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_donjon": {
+    "criteria": {
+      "nova_structures:piglin_donjon": "2025-03-10 21:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:nether/find_donjon": "2025-03-10 21:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-03-10 21:39:02 +0800"
+    },
+    "done": true
+  },
+  "uselessreptile:recipes/tools/netherite_vortex_horn_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig_smithing": {
+    "criteria": {
+      "has_pig": "2025-03-10 20:24:34 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/cincinnasite_sword_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 21:27:08 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_shovel_diamond": {
+    "criteria": {
+      "has_item.betternether.cincinnasite_diamond_upgrade_smithing_template": "2025-03-10 21:27:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-03-10 20:03:43 +0800"
+    },
+    "done": true
+  },
+  "more_rpg_content:steel_sword": {
+    "criteria": {
+      "items": "2025-03-10 20:59:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-03-10 21:39:02 +0800"
     },
     "done": true
   },
